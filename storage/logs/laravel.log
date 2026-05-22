@@ -1,0 +1,26 @@
+[2026-05-21 10:26:26] local.ERROR: The V:\pharmacy-pos\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The V:\\pharmacy-pos\\bootstrap\\cache directory must be present and writable. at V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:178)
+[stacktrace]
+#0 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(131): Illuminate/Foundation/PackageManifest->write(Array)
+#1 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(107): Illuminate/Foundation/PackageManifest->build()
+#2 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate/Foundation/PackageManifest->getManifest()
+#3 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate/Foundation/PackageManifest->config('aliases')
+#4 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate/Foundation/PackageManifest->aliases()
+#5 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate/Foundation/Bootstrap/RegisterFacades->bootstrap(Object(Illuminate/Foundation/Application))
+#6 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate/Foundation/Application->bootstrapWith(Array)
+#7 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate/Foundation/Console/Kernel->bootstrap()
+#8 V:/pharmacy-pos/artisan(35): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 {main}
+"} 
+[2026-05-21 10:29:27] local.ERROR: The V:\pharmacy-pos\bootstrap\cache directory must be present and writable. {"exception":"[object] (Exception(code: 0): The V:\\pharmacy-pos\\bootstrap\\cache directory must be present and writable. at V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:178)
+[stacktrace]
+#0 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(131): Illuminate/Foundation/PackageManifest->write(Array)
+#1 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(107): Illuminate/Foundation/PackageManifest->build()
+#2 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(90): Illuminate/Foundation/PackageManifest->getManifest()
+#3 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(79): Illuminate/Foundation/PackageManifest->config('aliases')
+#4 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate/Foundation/PackageManifest->aliases()
+#5 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(286): Illuminate/Foundation/Bootstrap/RegisterFacades->bootstrap(Object(Illuminate/Foundation/Application))
+#6 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(447): Illuminate/Foundation/Application->bootstrapWith(Array)
+#7 V:/pharmacy-pos/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(199): Illuminate/Foundation/Console/Kernel->bootstrap()
+#8 V:/pharmacy-pos/artisan(35): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 {main}
+"} 
